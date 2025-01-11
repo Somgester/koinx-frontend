@@ -1,15 +1,9 @@
-
-import './App.css'
-import Navbar from './components/navbar'
-
-function App() {
-
-
+// import React from "react";
+import DisplayPage from "./layouts/Display/DisplayPage";
+const App = () => {
   return (
-    
-    <div className="App">
-      <Navbar />
-      
+    <div>
+      <DisplayPage />
     </div>
   )
 }
